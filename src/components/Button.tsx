@@ -11,7 +11,7 @@ export default function Button(props: any): JSX.Element {
                 break;
             case "digit":
             case "operator":
-                if(["undefined", "Error", "Infinity"].indexOf(display.innerText) != -1) {
+                if(["undefined", "Error", "Infinity"].indexOf(display.innerText) !== -1) {
                     display.innerText = "";
                 }
 
@@ -23,10 +23,10 @@ export default function Button(props: any): JSX.Element {
                     display.innerText = eval(display.innerText);
                 } catch (SyntaxError) {
                     display.innerText = "Error";
-                };
+                }
                 break;
-        };
-    };
+        }
+    }
 
     return (
       <>
