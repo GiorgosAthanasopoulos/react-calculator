@@ -1,0 +1,27 @@
+.digit, .equals {
+    background-color: white;
+}
+
+.operator {
+    background-color: darkorange;
+    color: white;
+}
+
+.digit, .text, .equals {
+    color: black;
+}
+
+.button {
+    width: 75px;
+    height: 75px;
+    border: 1px solid black;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    background-color: lightgray;
+    width: 308px;
+}

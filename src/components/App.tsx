@@ -1,11 +1,11 @@
 import React from "react";
 
-import "../stylesheets/App.css";
+import Calculator from "./Calculator";
 
 export default function App(): JSX.Element {
     return (
       <>
-        <h1>Hello, World!</h1>
+          <Calculator/>
       </>
     );
 };
